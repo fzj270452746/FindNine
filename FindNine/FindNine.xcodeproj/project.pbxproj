@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0299EA633F8809C8ABD5646B /* Pods_FindNine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1AF20C1854E5A85C2CA369 /* Pods_FindNine.framework */; };
+		2250B9FB97E43F7E953C3CD3 /* FeedbackHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2AE40F37F5EC36870EB62 /* FeedbackHistoryViewController.swift */; };
+		2880821F2EA217AD000A1071 /* YongfaAmouyd.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2880821E2EA217AD000A1071 /* YongfaAmouyd.xcframework */; };
+		89D98F241DF1DA6DCCF4E512 /* FeedbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A11C4622EC7082DA8617BDF /* FeedbackModel.swift */; };
+		B66DFB0178B781BB4E152D2D /* GameModeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB891D31D819272CDF69B4F /* GameModeModel.swift */; };
+		BCC0D8C6670920B6BBBEB201 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2680F0DB2DFA6A71EEC6131E /* FeedbackViewController.swift */; };
+		D6EF4EC47DEB1757FC013B52 /* ModeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D9ACF3E8C3B43A4C393ED /* ModeSelectionViewController.swift */; };
+		FE7A96662E9D5AAA00E2095C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7A965B2E9D5AAA00E2095C /* Assets.xcassets */; };
+		FE7A96682E9D5AAA00E2095C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7A965F2E9D5AAA00E2095C /* LaunchScreen.storyboard */; };
+		FE7A96692E9D5AAA00E2095C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7A96612E9D5AAA00E2095C /* Main.storyboard */; };
+		FE7A966B2E9D5AAA00E2095C /* FindNine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE7A965C2E9D5AAA00E2095C /* FindNine.xcdatamodeld */; };
+		FE7A968F2E9E856700E2095C /* ShuomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A968B2E9E856700E2095C /* ShuomingViewController.swift */; };
+		FE7A96902E9E856700E2095C /* NineMahjongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A96882E9E856700E2095C /* NineMahjongModel.swift */; };
+		FE7A96912E9E856700E2095C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A968A2E9E856700E2095C /* SceneDelegate.swift */; };
+		FE7A96922E9E856700E2095C /* JiluViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A96872E9E856700E2095C /* JiluViewController.swift */; };
+		FE7A96932E9E856700E2095C /* OtherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A96892E9E856700E2095C /* OtherModel.swift */; };
+		FE7A96942E9E856700E2095C /* YouxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A968E2E9E856700E2095C /* YouxiViewController.swift */; };
+		FE7A96952E9E856700E2095C /* ZuyasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A968C2E9E856700E2095C /* ZuyasViewController.swift */; };
+		FE7A96962E9E856700E2095C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A96862E9E856700E2095C /* AppDelegate.swift */; };
+		FE7A96972E9E856700E2095C /* YouxiJiluModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A968D2E9E856700E2095C /* YouxiJiluModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A11C4622EC7082DA8617BDF /* FeedbackModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedbackModel.swift; sourceTree = "<group>"; };
+		2680F0DB2DFA6A71EEC6131E /* FeedbackViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		2880821E2EA217AD000A1071 /* YongfaAmouyd.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = YongfaAmouyd.xcframework; sourceTree = "<group>"; };
+		3AE2AE40F37F5EC36870EB62 /* FeedbackHistoryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeedbackHistoryViewController.swift; sourceTree = "<group>"; };
+		A026C3269F61357E805E54B8 /* Pods-FindNine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindNine.release.xcconfig"; path = "Target Support Files/Pods-FindNine/Pods-FindNine.release.xcconfig"; sourceTree = "<group>"; };
+		ABD6AE1C208EC65E75A4003E /* Pods-FindNine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindNine.debug.xcconfig"; path = "Target Support Files/Pods-FindNine/Pods-FindNine.debug.xcconfig"; sourceTree = "<group>"; };
+		B00D9ACF3E8C3B43A4C393ED /* ModeSelectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModeSelectionViewController.swift; sourceTree = "<group>"; };
+		BB1AF20C1854E5A85C2CA369 /* Pods_FindNine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindNine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB891D31D819272CDF69B4F /* GameModeModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameModeModel.swift; sourceTree = "<group>"; };
+		FE7A96192E9D5A5900E2095C /* FindNine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindNine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7A965B2E9D5AAA00E2095C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE7A965D2E9D5AAA00E2095C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE7A965E2E9D5AAA00E2095C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE7A96602E9D5AAA00E2095C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE7A96652E9D5AAA00E2095C /* FindNine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindNine.xcdatamodel; sourceTree = "<group>"; };
+		FE7A96862E9E856700E2095C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE7A96872E9E856700E2095C /* JiluViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiluViewController.swift; sourceTree = "<group>"; };
+		FE7A96882E9E856700E2095C /* NineMahjongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineMahjongModel.swift; sourceTree = "<group>"; };
+		FE7A96892E9E856700E2095C /* OtherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherModel.swift; sourceTree = "<group>"; };
+		FE7A968A2E9E856700E2095C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE7A968B2E9E856700E2095C /* ShuomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuomingViewController.swift; sourceTree = "<group>"; };
+		FE7A968C2E9E856700E2095C /* ZuyasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZuyasViewController.swift; sourceTree = "<group>"; };
+		FE7A968D2E9E856700E2095C /* YouxiJiluModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouxiJiluModel.swift; sourceTree = "<group>"; };
+		FE7A968E2E9E856700E2095C /* YouxiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouxiViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE7A96162E9D5A5900E2095C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2880821F2EA217AD000A1071 /* YongfaAmouyd.xcframework in Frameworks */,
+				0299EA633F8809C8ABD5646B /* Pods_FindNine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C44C16F6DBC9A8213E9390B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABD6AE1C208EC65E75A4003E /* Pods-FindNine.debug.xcconfig */,
+				A026C3269F61357E805E54B8 /* Pods-FindNine.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		891C81757A6840F05CEA9FF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB1AF20C1854E5A85C2CA369 /* Pods_FindNine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE7A96102E9D5A5900E2095C = {
+			isa = PBXGroup;
+			children = (
+				FE7A96642E9D5AAA00E2095C /* FindNine */,
+				FE7A961A2E9D5A5900E2095C /* Products */,
+				5C44C16F6DBC9A8213E9390B /* Pods */,
+				891C81757A6840F05CEA9FF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE7A961A2E9D5A5900E2095C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE7A96192E9D5A5900E2095C /* FindNine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE7A96642E9D5AAA00E2095C /* FindNine */ = {
+			isa = PBXGroup;
+			children = (
+				FE7A965B2E9D5AAA00E2095C /* Assets.xcassets */,
+				FE7A96D42E9E92B000E2095C /* AppDelegate_Scene */,
+				FE7A96D32E9E929E00E2095C /* Models */,
+				FE7A96D22E9E928D00E2095C /* C */,
+				FE7A965C2E9D5AAA00E2095C /* FindNine.xcdatamodeld */,
+				2880821E2EA217AD000A1071 /* YongfaAmouyd.xcframework */,
+				FE7A965D2E9D5AAA00E2095C /* Info.plist */,
+				FE7A965F2E9D5AAA00E2095C /* LaunchScreen.storyboard */,
+				FE7A96612E9D5AAA00E2095C /* Main.storyboard */,
+			);
+			path = FindNine;
+			sourceTree = "<group>";
+		};
+		FE7A96D22E9E928D00E2095C /* C */ = {
+			isa = PBXGroup;
+			children = (
+				FE7A96872E9E856700E2095C /* JiluViewController.swift */,
+				FE7A968B2E9E856700E2095C /* ShuomingViewController.swift */,
+				FE7A968C2E9E856700E2095C /* ZuyasViewController.swift */,
+				FE7A968E2E9E856700E2095C /* YouxiViewController.swift */,
+				B00D9ACF3E8C3B43A4C393ED /* ModeSelectionViewController.swift */,
+				2680F0DB2DFA6A71EEC6131E /* FeedbackViewController.swift */,
+				3AE2AE40F37F5EC36870EB62 /* FeedbackHistoryViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		FE7A96D32E9E929E00E2095C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE7A96882E9E856700E2095C /* NineMahjongModel.swift */,
+				FE7A96892E9E856700E2095C /* OtherModel.swift */,
+				FE7A968D2E9E856700E2095C /* YouxiJiluModel.swift */,
+				BEB891D31D819272CDF69B4F /* GameModeModel.swift */,
+				1A11C4622EC7082DA8617BDF /* FeedbackModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE7A96D42E9E92B000E2095C /* AppDelegate_Scene */ = {
+			isa = PBXGroup;
+			children = (
+				FE7A96862E9E856700E2095C /* AppDelegate.swift */,
+				FE7A968A2E9E856700E2095C /* SceneDelegate.swift */,
+			);
+			path = AppDelegate_Scene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE7A96182E9D5A5900E2095C /* FindNine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7A962F2E9D5A5A00E2095C /* Build configuration list for PBXNativeTarget "FindNine" */;
+			buildPhases = (
+				9A0AD90260538AC88D0CF90A /* [CP] Check Pods Manifest.lock */,
+				FE7A96152E9D5A5900E2095C /* Sources */,
+				FE7A96162E9D5A5900E2095C /* Frameworks */,
+				FE7A96172E9D5A5900E2095C /* Resources */,
+				F546E0FC50F7CA446C5DB2E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindNine;
+			productName = FindNine;
+			productReference = FE7A96192E9D5A5900E2095C /* FindNine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE7A96112E9D5A5900E2095C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FE7A96182E9D5A5900E2095C = {
+						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
+					};
+				};
+			};
+			buildConfigurationList = FE7A96142E9D5A5900E2095C /* Build configuration list for PBXProject "FindNine" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE7A96102E9D5A5900E2095C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FE7A961A2E9D5A5900E2095C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7A96182E9D5A5900E2095C /* FindNine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE7A96172E9D5A5900E2095C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7A96662E9D5AAA00E2095C /* Assets.xcassets in Resources */,
+				FE7A96682E9D5AAA00E2095C /* LaunchScreen.storyboard in Resources */,
+				FE7A96692E9D5AAA00E2095C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A0AD90260538AC88D0CF90A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindNine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F546E0FC50F7CA446C5DB2E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindNine/Pods-FindNine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindNine/Pods-FindNine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindNine/Pods-FindNine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE7A96152E9D5A5900E2095C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7A968F2E9E856700E2095C /* ShuomingViewController.swift in Sources */,
+				FE7A96902E9E856700E2095C /* NineMahjongModel.swift in Sources */,
+				FE7A96912E9E856700E2095C /* SceneDelegate.swift in Sources */,
+				FE7A96922E9E856700E2095C /* JiluViewController.swift in Sources */,
+				FE7A96932E9E856700E2095C /* OtherModel.swift in Sources */,
+				FE7A96942E9E856700E2095C /* YouxiViewController.swift in Sources */,
+				FE7A96952E9E856700E2095C /* ZuyasViewController.swift in Sources */,
+				FE7A96962E9E856700E2095C /* AppDelegate.swift in Sources */,
+				FE7A96972E9E856700E2095C /* YouxiJiluModel.swift in Sources */,
+				FE7A966B2E9D5AAA00E2095C /* FindNine.xcdatamodeld in Sources */,
+				B66DFB0178B781BB4E152D2D /* GameModeModel.swift in Sources */,
+				89D98F241DF1DA6DCCF4E512 /* FeedbackModel.swift in Sources */,
+				D6EF4EC47DEB1757FC013B52 /* ModeSelectionViewController.swift in Sources */,
+				BCC0D8C6670920B6BBBEB201 /* FeedbackViewController.swift in Sources */,
+				2250B9FB97E43F7E953C3CD3 /* FeedbackHistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE7A965F2E9D5AAA00E2095C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE7A965E2E9D5AAA00E2095C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FE7A96612E9D5AAA00E2095C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE7A96602E9D5AAA00E2095C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE7A96302E9D5A5A00E2095C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD6AE1C208EC65E75A4003E /* Pods-FindNine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindNine/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong - Find All Nums";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FindNine.fnh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE7A96312E9D5A5A00E2095C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A026C3269F61357E805E54B8 /* Pods-FindNine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindNine/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong - Find All Nums";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FindNine.fnh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FE7A96322E9D5A5A00E2095C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE7A96332E9D5A5A00E2095C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE7A96142E9D5A5900E2095C /* Build configuration list for PBXProject "FindNine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7A96322E9D5A5A00E2095C /* Debug */,
+				FE7A96332E9D5A5A00E2095C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7A962F2E9D5A5A00E2095C /* Build configuration list for PBXNativeTarget "FindNine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7A96302E9D5A5A00E2095C /* Debug */,
+				FE7A96312E9D5A5A00E2095C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE7A965C2E9D5AAA00E2095C /* FindNine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE7A96652E9D5AAA00E2095C /* FindNine.xcdatamodel */,
+			);
+			currentVersion = FE7A96652E9D5AAA00E2095C /* FindNine.xcdatamodel */;
+			path = FindNine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE7A96112E9D5A5900E2095C /* Project object */;
+}
